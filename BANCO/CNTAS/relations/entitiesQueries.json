@@ -5,5 +5,12 @@
 				"$ref": "../ADMIN/queries/Q_CLIETNTE_OM51.json#"
 			}
 		}
+	},
+	"EN_OPERACIOO_708": {
+		"queries": {
+			"Q_OPERCCOE_TY13": {
+				"$ref": "../ADMIN/queries/Q_OPERCCOE_TY13.json#"
+			}
+		}
 	}
 }

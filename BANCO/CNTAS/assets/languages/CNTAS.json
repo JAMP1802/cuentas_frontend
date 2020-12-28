@@ -2,9 +2,15 @@
 	"CNTAS": {
 		"LBL": {
 			"LBL_CNTAS_CDULANNCB_78020": "C\u00e9dula",
+			"LBL_CNTAS_DEPOSITAR_80868": "Depositar",
 			"LBL_CNTAS_GUARDARYM_27543": "Guardar",
+			"LBL_CNTAS_NMEROCUAT_39342": "N\u00famero de Cuenta",
+			"LBL_CNTAS_RETIRARWE_41793": "Retirar",
 			"LBL_CNTAS_SALDOINCI_32613": "Saldo inicial",
-			"LBL_CNTAS_TIPOCUEAA_90783": "Tipo de Cuenta"
+			"LBL_CNTAS_SALDOTTHG_97493": "Saldo",
+			"LBL_CNTAS_TIPOCUEAA_90783": "Tipo de Cuenta",
+			"LBL_CNTAS_VALORADOI_11452": "Valor a Depositar",
+			"LBL_CNTAS_VALORARAA_10820": "Valor a Retirar"
 		},
 		"MSG": {
 		}

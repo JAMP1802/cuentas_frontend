@@ -5,25 +5,43 @@
 		"Forms": {
 			"T_CNTASBHRJCDFQ_607": {
 				"name": "pantallaCreacionCuenta"
+			},
+			"T_CNTASPPOANNEE_841": {
+				"name": "pantallaDepositos"
+			},
+			"T_CNTASZKRCNDMZ_891": {
+				"name": "pantallaRetiros"
 			}
 		},
 		"Queries": {
 			"Q_CLIETNTE_OM51": {
 				"name": "ClienteQuery"
+			},
+			"Q_OPERCCOE_TY13": {
+				"name": "OperacionesQuery"
 			}
 		},
 		"SubForms": {
 		}
 	},
 	"Entities": {
-		"EN_1SQWURABW_867": {
-			"name": "Entity1"
-		},
-		"EN_2XWVAXALL_569": {
-			"name": "Entity2"
-		},
 		"EN_CLIENTEQI_391": {
 			"name": "Cliente"
+		},
+		"EN_CUENTAAOO_809": {
+			"name": "CuentaAhorros"
+		},
+		"EN_CUENTACOE_528": {
+			"name": "CuentaCorriente"
+		},
+		"EN_FILTROBUU_182": {
+			"name": "FiltroBusqueda"
+		},
+		"EN_FILTROCUA_153": {
+			"name": "FiltroCuenta"
+		},
+		"EN_OPERACIOO_708": {
+			"name": "Operaciones"
 		}
 	}
 }

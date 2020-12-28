@@ -1,0 +1,30 @@
+{
+	"entities": [
+		{
+			"entityId": "EN_FILTROBUU_182",
+			"isContextEntity": null,
+			"moduleId": "CNTAS",
+			"related": false
+		},
+		{
+			"entityId": "EN_FILTROCUA_153",
+			"isContextEntity": null,
+			"moduleId": "CNTAS",
+			"related": false
+		},
+		{
+			"entityId": "EN_OPERACIOO_708",
+			"isContextEntity": null,
+			"moduleId": "CNTAS",
+			"related": false
+		}
+	],
+	"queries": [
+		{
+			"moduleId": "CNTAS",
+			"queryId": "Q_OPERCCOE_TY13",
+			"related": false,
+			"subModuleId": "ADMIN"
+		}
+	]
+}
