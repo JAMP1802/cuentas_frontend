@@ -1,0 +1,9 @@
+{
+	"EN_CLIENTEQI_391": {
+		"queries": {
+			"Q_CLIETNTE_OM51": {
+				"$ref": "../ADMIN/queries/Q_CLIETNTE_OM51.json#"
+			}
+		}
+	}
+}

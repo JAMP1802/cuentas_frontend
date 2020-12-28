@@ -1,10 +1,12 @@
 {
-    "CNTAS": {
-        "LBL": {
-
-        },
-        "MSG": {
-
-        }
-    }
+	"CNTAS": {
+		"LBL": {
+			"LBL_CNTAS_CDULANNCB_78020": "C\u00e9dula",
+			"LBL_CNTAS_GUARDARYM_27543": "Guardar",
+			"LBL_CNTAS_SALDOINCI_32613": "Saldo inicial",
+			"LBL_CNTAS_TIPOCUEAA_90783": "Tipo de Cuenta"
+		},
+		"MSG": {
+		}
+	}
 }

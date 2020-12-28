@@ -1,0 +1,30 @@
+{
+	"entities": [
+		{
+			"entityId": "EN_1SQWURABW_867",
+			"isContextEntity": null,
+			"moduleId": "CNTAS",
+			"related": false
+		},
+		{
+			"entityId": "EN_2XWVAXALL_569",
+			"isContextEntity": null,
+			"moduleId": "CNTAS",
+			"related": false
+		},
+		{
+			"entityId": "EN_CLIENTEQI_391",
+			"isContextEntity": null,
+			"moduleId": "CNTAS",
+			"related": false
+		}
+	],
+	"queries": [
+		{
+			"moduleId": "CNTAS",
+			"queryId": "Q_CLIETNTE_OM51",
+			"related": false,
+			"subModuleId": "ADMIN"
+		}
+	]
+}

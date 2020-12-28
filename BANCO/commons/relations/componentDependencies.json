@@ -1,6 +1,59 @@
 {
-	"Entities": {},
-	"Forms": {},
-	"CompositeForms": {},
-	"Queries": {}
+	"CompositeForms": {
+	},
+	"Entities": {
+		"EN_CLIENTEQI_391": {
+			"labels": [
+			]
+		}
+	},
+	"Forms": {
+		"T_CNTASBHRJCDFQ_607": {
+			"blis": [
+			],
+			"entities": {
+				"EN_1SQWURABW_867": [
+					"AT02_1FYARZQP867"
+				],
+				"EN_2XWVAXALL_569": [
+					"AT02_1YMAAVVG569",
+					"AT03_2SKLLXDD569"
+				],
+				"EN_CLIENTEQI_391": [
+					"AT21_APELLIDO391",
+					"AT54_NOMBREMJ391",
+					"AT81_CODCLINT391",
+					"AT94_CEDULAME391"
+				]
+			},
+			"externalEntities": {
+			},
+			"externalQueries": {
+			},
+			"header": [
+			],
+			"labels": [
+				"LBL_CNTAS_CDULANNCB_78020",
+				"LBL_CNTAS_GUARDARYM_27543",
+				"LBL_CNTAS_SALDOINCI_32613",
+				"LBL_CNTAS_TIPOCUEAA_90783"
+			],
+			"queries": {
+				"Q_CLIETNTE_OM51": [
+					"QM_CLIET511TM122_01",
+					"QM_CLIETEEE5O773_03",
+					"QM_CLIETEONTE968_04",
+					"QM_CLIETO5OT5618_02"
+				]
+			},
+			"subForms": [
+			]
+		}
+	},
+	"Queries": {
+		"Q_CLIETNTE_OM51": {
+			"labels": [
+			]
+		}
+	}
 }
