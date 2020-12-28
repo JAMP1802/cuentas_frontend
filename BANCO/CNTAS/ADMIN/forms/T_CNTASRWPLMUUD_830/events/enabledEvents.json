@@ -1,0 +1,18 @@
+[
+	{
+		"attributeName": "",
+		"controlId": "Q_TRANSSCS_KA88",
+		"controlName": "TransaccionQuery",
+		"controlType": "Query",
+		"customEvents": [
+			{
+				"eventName": "executeQuery",
+				"executionType": {
+					"$ref": "../../../../../CNTAS/ADMIN/queries/Q_TRANSSCS_KA88.json#/customEvents"
+				}
+			}
+		],
+		"entityName": "Transaccion",
+		"eventsType": "queryEventType"
+	}
+]

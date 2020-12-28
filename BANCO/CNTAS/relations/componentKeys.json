@@ -6,8 +6,14 @@
 			"T_CNTASBHRJCDFQ_607": {
 				"name": "pantallaCreacionCuenta"
 			},
+			"T_CNTASMAYEGMZW_565": {
+				"name": "pantallaTransferencias"
+			},
 			"T_CNTASPPOANNEE_841": {
 				"name": "pantallaDepositos"
+			},
+			"T_CNTASRWPLMUUD_830": {
+				"name": "pantallaTransaccion"
 			},
 			"T_CNTASZKRCNDMZ_891": {
 				"name": "pantallaRetiros"
@@ -19,6 +25,12 @@
 			},
 			"Q_OPERCCOE_TY13": {
 				"name": "OperacionesQuery"
+			},
+			"Q_OPERIIOI_BK99": {
+				"name": "OperacionesDestinoQuery"
+			},
+			"Q_TRANSSCS_KA88": {
+				"name": "TransaccionQuery"
 			}
 		},
 		"SubForms": {
@@ -34,14 +46,23 @@
 		"EN_CUENTACOE_528": {
 			"name": "CuentaCorriente"
 		},
+		"EN_FILTROBEA_962": {
+			"name": "FiltroBusquedaDestino"
+		},
 		"EN_FILTROBUU_182": {
 			"name": "FiltroBusqueda"
 		},
 		"EN_FILTROCUA_153": {
 			"name": "FiltroCuenta"
 		},
+		"EN_OPERACIOI_327": {
+			"name": "OperacionesDestino"
+		},
 		"EN_OPERACIOO_708": {
 			"name": "Operaciones"
+		},
+		"EN_TRANSACON_749": {
+			"name": "Transaccion"
 		}
 	}
 }

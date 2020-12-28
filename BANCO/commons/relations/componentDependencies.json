@@ -14,6 +14,10 @@
 			"labels": [
 			]
 		},
+		"EN_FILTROBEA_962": {
+			"labels": [
+			]
+		},
 		"EN_FILTROBUU_182": {
 			"labels": [
 			]
@@ -22,7 +26,15 @@
 			"labels": [
 			]
 		},
+		"EN_OPERACIOI_327": {
+			"labels": [
+			]
+		},
 		"EN_OPERACIOO_708": {
+			"labels": [
+			]
+		},
+		"EN_TRANSACON_749": {
 			"labels": [
 			]
 		}
@@ -74,6 +86,81 @@
 			"subForms": [
 			]
 		},
+		"T_CNTASMAYEGMZW_565": {
+			"blis": [
+			],
+			"entities": {
+				"EN_FILTROBEA_962": [
+					"AT10_NUMCUEEE962"
+				],
+				"EN_FILTROBUU_182": [
+					"AT47_NUMCUETN182"
+				],
+				"EN_FILTROCUA_153": [
+					"AT23_VALORDTI153"
+				],
+				"EN_OPERACIOI_327": [
+					"AT28_NOMBREXJ327",
+					"AT38_CEDULAIF327",
+					"AT38_NUMCUETT327",
+					"AT45_APELLIDO327",
+					"AT66_SALDOFBE327",
+					"AT75_TIPOCUNT327"
+				],
+				"EN_OPERACIOO_708": [
+					"AT43_SALDOGVN708",
+					"AT74_CEDULADL708",
+					"AT79_NUMCUETN708",
+					"AT85_TIPOCUTT708",
+					"AT89_NOMBRERL708",
+					"AT99_APELLIOO708"
+				]
+			},
+			"externalEntities": {
+			},
+			"externalQueries": {
+			},
+			"header": [
+			],
+			"labels": [
+				"LBL_CNTAS_NUMCUENEO_56287",
+				"LBL_CNTAS_NUMCUENNA_94715",
+				"LBL_CNTAS_TRANSFEIR_69545",
+				"LBL_CNTAS_VALORATEN_78671"
+			],
+			"queries": {
+				"Q_OPERCCOE_TY13": [
+					"QM_OPERC1111O549_02",
+					"QM_OPERC1EOC3483_03",
+					"QM_OPERCEO1YC326_04",
+					"QM_OPERCOEYOO647_06",
+					"QM_OPERCOY1CY819_01",
+					"QM_OPERCY3CCC690_05",
+					"QM_OPERI9B9K9978_02",
+					"QM_OPERIB9I9I528_01",
+					"QM_OPERII99K9446_03",
+					"QM_OPERIK999I903_05",
+					"QM_OPERIOIB9I982_04",
+					"QM_OPERIOK99B679_06"
+				],
+				"Q_OPERIIOI_BK99": [
+					"QM_OPERC1111O549_02",
+					"QM_OPERC1EOC3483_03",
+					"QM_OPERCEO1YC326_04",
+					"QM_OPERCOEYOO647_06",
+					"QM_OPERCOY1CY819_01",
+					"QM_OPERCY3CCC690_05",
+					"QM_OPERI9B9K9978_02",
+					"QM_OPERIB9I9I528_01",
+					"QM_OPERII99K9446_03",
+					"QM_OPERIK999I903_05",
+					"QM_OPERIOIB9I982_04",
+					"QM_OPERIOK99B679_06"
+				]
+			},
+			"subForms": [
+			]
+		},
 		"T_CNTASPPOANNEE_841": {
 			"blis": [
 			],
@@ -112,6 +199,42 @@
 					"QM_OPERCOEYOO647_06",
 					"QM_OPERCOY1CY819_01",
 					"QM_OPERCY3CCC690_05"
+				]
+			},
+			"subForms": [
+			]
+		},
+		"T_CNTASRWPLMUUD_830": {
+			"blis": [
+			],
+			"entities": {
+				"EN_FILTROBUU_182": [
+					"AT47_NUMCUETN182"
+				],
+				"EN_TRANSACON_749": [
+					"AT20_CUENTAGX749",
+					"AT52_TIPOCUTA749",
+					"AT63_IDTRANSC749",
+					"AT83_FECHAFGU749",
+					"AT90_TIPOTRSS749"
+				]
+			},
+			"externalEntities": {
+			},
+			"externalQueries": {
+			},
+			"header": [
+			],
+			"labels": [
+				"LBL_CNTAS_NMEROCUAT_39342"
+			],
+			"queries": {
+				"Q_TRANSSCS_KA88": [
+					"QM_TRANS88ASA313_01",
+					"QM_TRANS88K88129_04",
+					"QM_TRANSCSSSC538_02",
+					"QM_TRANSK8AKS712_03",
+					"QM_TRANSS88SS396_05"
 				]
 			},
 			"subForms": [
@@ -166,6 +289,14 @@
 			]
 		},
 		"Q_OPERCCOE_TY13": {
+			"labels": [
+			]
+		},
+		"Q_OPERIIOI_BK99": {
+			"labels": [
+			]
+		},
+		"Q_TRANSSCS_KA88": {
 			"labels": [
 			]
 		}

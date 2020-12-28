@@ -6,10 +6,24 @@
 			}
 		}
 	},
+	"EN_OPERACIOI_327": {
+		"queries": {
+			"Q_OPERIIOI_BK99": {
+				"$ref": "../ADMIN/queries/Q_OPERIIOI_BK99.json#"
+			}
+		}
+	},
 	"EN_OPERACIOO_708": {
 		"queries": {
 			"Q_OPERCCOE_TY13": {
 				"$ref": "../ADMIN/queries/Q_OPERCCOE_TY13.json#"
+			}
+		}
+	},
+	"EN_TRANSACON_749": {
+		"queries": {
+			"Q_TRANSSCS_KA88": {
+				"$ref": "../ADMIN/queries/Q_TRANSSCS_KA88.json#"
 			}
 		}
 	}

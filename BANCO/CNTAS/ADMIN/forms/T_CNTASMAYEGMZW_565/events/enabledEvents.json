@@ -1,0 +1,34 @@
+[
+	{
+		"attributeName": "",
+		"controlId": "Q_OPERCCOE_TY13",
+		"controlName": "OperacionesQuery",
+		"controlType": "Query",
+		"customEvents": [
+			{
+				"eventName": "executeQuery",
+				"executionType": {
+					"$ref": "../../../../../CNTAS/ADMIN/queries/Q_OPERCCOE_TY13.json#/customEvents"
+				}
+			}
+		],
+		"entityName": "Operaciones",
+		"eventsType": "queryEventType"
+	},
+	{
+		"attributeName": "",
+		"controlId": "Q_OPERIIOI_BK99",
+		"controlName": "OperacionesDestinoQuery",
+		"controlType": "Query",
+		"customEvents": [
+			{
+				"eventName": "executeQuery",
+				"executionType": {
+					"$ref": "../../../../../CNTAS/ADMIN/queries/Q_OPERIIOI_BK99.json#/customEvents"
+				}
+			}
+		],
+		"entityName": "OperacionesDestino",
+		"eventsType": "queryEventType"
+	}
+]
