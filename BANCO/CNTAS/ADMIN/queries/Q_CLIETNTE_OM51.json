@@ -9,11 +9,17 @@
 				{
 					"actionArgs": [
 					],
+					"actionId": "BLI8787_bli_consultar_cliente",
+					"actionType": "BLI"
+				},
+				{
+					"actionArgs": [
+					],
 					"actionId": "CUSTOM",
 					"actionType": "CUSTOM"
 				}
 			],
-			"executionType": 3,
+			"executionType": 7,
 			"queryEventType": {
 				"availableExecutionType": 7,
 				"description": "Sobreescribe la ejecuci\u00f3n de un Query",
@@ -46,7 +52,6 @@
 			"attribute": {
 				"$ref": "../../../CNTAS/entities/EN_CLIENTEQI_391.json#/attributes/AT94_CEDULAME391"
 			},
-			"attributeQuery": "cedula",
 			"customizationLayer": "",
 			"customizationLayerDescription": "",
 			"defaultValue": null,
@@ -59,15 +64,14 @@
 			"queryMemberId": "QM_CLIET511TM122_01",
 			"select": true,
 			"selectStr": "T",
-			"where": false,
-			"whereStr": "F"
+			"where": true,
+			"whereStr": "T"
 		},
 		{
 			"alias": "apellido",
 			"attribute": {
 				"$ref": "../../../CNTAS/entities/EN_CLIENTEQI_391.json#/attributes/AT21_APELLIDO391"
 			},
-			"attributeQuery": "apellido",
 			"customizationLayer": "",
 			"customizationLayerDescription": "",
 			"defaultValue": null,
@@ -88,7 +92,6 @@
 			"attribute": {
 				"$ref": "../../../CNTAS/entities/EN_CLIENTEQI_391.json#/attributes/AT81_CODCLINT391"
 			},
-			"attributeQuery": "codCliente",
 			"customizationLayer": "",
 			"customizationLayerDescription": "",
 			"defaultValue": null,
@@ -109,7 +112,6 @@
 			"attribute": {
 				"$ref": "../../../CNTAS/entities/EN_CLIENTEQI_391.json#/attributes/AT54_NOMBREMJ391"
 			},
-			"attributeQuery": "nombre",
 			"customizationLayer": "",
 			"customizationLayerDescription": "",
 			"defaultValue": null,

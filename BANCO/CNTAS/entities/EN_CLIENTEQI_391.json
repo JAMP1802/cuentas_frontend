@@ -55,7 +55,7 @@
 			"columnName": null,
 			"customizationLayer": 0,
 			"customizationLayerDescription": "ECU",
-			"dataType": "String",
+			"dataType": "Integer",
 			"entityPk": {
 				"entityId": "EN_CLIENTEQI_391",
 				"version": "1.0.0"
@@ -69,7 +69,7 @@
 			"objectType": null,
 			"order": 4,
 			"pkStr": "F",
-			"requiredStr": "T",
+			"requiredStr": "F",
 			"transientStr": "F",
 			"trueValue": null
 		},
@@ -93,7 +93,7 @@
 			"objectType": null,
 			"order": 1,
 			"pkStr": "F",
-			"requiredStr": "T",
+			"requiredStr": "F",
 			"transientStr": "F",
 			"trueValue": null
 		}

@@ -42,6 +42,7 @@
 	"Forms": {
 		"T_CNTASBHRJCDFQ_607": {
 			"blis": [
+				"BLI8787_bli_consultar_cliente"
 			],
 			"entities": {
 				"EN_CLIENTEQI_391": [
@@ -77,6 +78,8 @@
 			],
 			"queries": {
 				"Q_CLIETNTE_OM51": [
+					"",
+					"",
 					"QM_CLIET511TM122_01",
 					"QM_CLIETEEE5O773_03",
 					"QM_CLIETEONTE968_04",

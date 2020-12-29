@@ -1,2 +1,32 @@
 {
+	"APP_TALLERBACCC_770": {
+		"externalModules": {
+		},
+		"forms": {
+			"CNTAS": [
+				{
+					"generated": 2,
+					"moduleId": "CNTAS",
+					"name": "pantallaCreacionCuenta",
+					"subModuleId": "ADMIN",
+					"taskId": "T_CNTASBHRJCDFQ_607",
+					"type": "Simple form"
+				}
+			]
+		},
+		"generate": {
+			"categoryName": "Cobiscorp",
+			"customEventImpl": "Custom",
+			"customEventImplPath": "{projectPath}\\build",
+			"displayName": "tallerBanco",
+			"mode": "Development",
+			"type": "HTML5"
+		},
+		"id": "APP_TALLERBACCC_770",
+		"mainPortletTaskId": "T_CNTASBHRJCDFQ_607",
+		"modules": [
+			"CNTAS"
+		],
+		"name": "tallerBanco"
+	}
 }

@@ -64,7 +64,7 @@
 			"falseValue": null,
 			"labelId": null,
 			"length": 0,
-			"listValues": "CA;Cuenta Ahorros|CC;Cuenta Corriente",
+			"listValues": null,
 			"name": "tipoCuenta",
 			"objectType": null,
 			"order": 1,
