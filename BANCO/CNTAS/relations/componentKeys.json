@@ -17,6 +17,9 @@
 			},
 			"T_CNTASZKRCNDMZ_891": {
 				"name": "pantallaRetiros"
+			},
+			"T_CNTASZSKFJDSC_476": {
+				"name": "formCuenta"
 			}
 		},
 		"Queries": {
@@ -51,6 +54,9 @@
 		},
 		"EN_FILTROBUU_182": {
 			"name": "FiltroBusqueda"
+		},
+		"EN_FILTROCEN_606": {
+			"name": "FiltroCuentas"
 		},
 		"EN_FILTROCUA_153": {
 			"name": "FiltroCuenta"

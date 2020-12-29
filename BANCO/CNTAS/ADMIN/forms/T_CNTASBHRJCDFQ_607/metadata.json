@@ -7,25 +7,13 @@
 			"related": false
 		},
 		{
-			"entityId": "EN_CUENTAAOO_809",
-			"isContextEntity": null,
-			"moduleId": "CNTAS",
-			"related": false
-		},
-		{
-			"entityId": "EN_CUENTACOE_528",
-			"isContextEntity": null,
-			"moduleId": "CNTAS",
-			"related": false
-		},
-		{
 			"entityId": "EN_FILTROBUU_182",
 			"isContextEntity": null,
 			"moduleId": "CNTAS",
 			"related": false
 		},
 		{
-			"entityId": "EN_FILTROCUA_153",
+			"entityId": "EN_FILTROCEN_606",
 			"isContextEntity": null,
 			"moduleId": "CNTAS",
 			"related": false

@@ -3,6 +3,40 @@
 		{
 			"entities": {
 				"inputEntity": [
+					{
+						"entityId": "EN_FILTROCEN_606",
+						"moduleId": "CNTAS",
+						"related": false
+					}
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+				]
+			},
+			"idBli": "BLI3489_bli_insert_cuentac",
+			"nameBli": "BLI_insert_cuentac"
+		},
+		{
+			"entities": {
+				"inputEntity": [
+					{
+						"entityId": "EN_FILTROCEN_606",
+						"moduleId": "CNTAS",
+						"related": false
+					}
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+				]
+			},
+			"idBli": "BLI5974_bli_insert_cuentaa",
+			"nameBli": "BLI_insert_cuentaa"
+		},
+		{
+			"entities": {
+				"inputEntity": [
 				],
 				"outputEntity": [
 				],

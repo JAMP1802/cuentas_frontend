@@ -3,42 +3,6 @@
 	"cobisPattern": "None",
 	"cobisPatternId": 0,
 	"commands": [
-		{
-			"action": null,
-			"causesValidation": false,
-			"causesValidationAsString": "F",
-			"close": false,
-			"closeAsString": "F",
-			"commandType": 0,
-			"customEvents": [
-			],
-			"customizationLayer": 0,
-			"customizationLayerDescription": "ECU",
-			"enabled": 4095,
-			"group": null,
-			"id": {
-				"commandId": "CM_TCNTASBH_8H2"
-			},
-			"imageId": null,
-			"isCustomized": false,
-			"label": {
-				"defaultValue": {
-					"$ref": "../../../../CNTAS/assets/languages/CNTAS.json#/CNTAS/LBL/LBL_CNTAS_GUARDARYM_27543"
-				},
-				"labelId": "LBL_CNTAS_GUARDARYM_27543",
-				"moduleId": "CNTAS"
-			},
-			"layoutType": "Command",
-			"name": "Command1",
-			"options": 0,
-			"order": 1,
-			"showInMode": 4095,
-			"userControl": {
-				"type": "A",
-				"userControlId": "Button"
-			},
-			"validationGroup": null
-		}
 	],
 	"customEvents": [
 	],
@@ -70,7 +34,7 @@
 			"componentStyle": null,
 			"customEvents": [
 				{
-					"customEventId": "CEVC_002T_CNTASBHRJCDFQ_607_182",
+					"customEventId": "CEVC_008T_CNTASBHRJCDFQ_607_544",
 					"customizationLayer": 0,
 					"customizationLayerDescription": "ECU",
 					"enabled": "T",
@@ -80,10 +44,10 @@
 					"filter": null,
 					"isEnabled": true,
 					"viewContainerEventType": {
-						"availableExecutionType": 7,
-						"description": "Inicializaci\u00f3n de datos de un ViewContainer, despues de este evento se realiza el segimiento de cambios en los datos",
-						"eventId": 2,
-						"name": "InitData"
+						"availableExecutionType": 1,
+						"description": "Se ejecuta antes de renderizar un ViewContainer, permite realizar personalizaciones visuales",
+						"eventId": 8,
+						"name": "Render"
 					}
 				}
 			],
@@ -109,21 +73,21 @@
 					{
 						"collapsedStr": "F",
 						"colSpan": 1,
-						"columnsNum": 3,
+						"columnsNum": 2,
 						"componentStyle": null,
 						"customEvents": [
 						],
 						"enabled": 4095,
 						"entity": {
-							"$ref": "../../../../CNTAS/entities/EN_FILTROCUA_153.json#"
+							"$ref": "../../../../CNTAS/entities/EN_FILTROCEN_606.json#"
 						},
 						"eventType": 0,
-						"groupId": "G_PANTALLACU_483418",
+						"groupId": "G_PANTALLACT_279418",
 						"htmlSection": "F",
 						"independentValidation": "F",
 						"isCustomized": false,
 						"layoutType": "Group",
-						"name": "Group1721",
+						"name": "Group1480",
 						"order": 3,
 						"orientation": "V",
 						"responsiveLayouts": null,
@@ -135,7 +99,69 @@
 								"aggregate": null,
 								"aggregateId": null,
 								"attribute": {
-									"$ref": "../../../../CNTAS/entities/EN_FILTROCUA_153.json#/attributes/AT87_TIPOCUAT153"
+									"$ref": "../../../../CNTAS/entities/EN_FILTROCEN_606.json#/attributes/AT21_SALDOIXF606"
+								},
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": false,
+								"componentStyle": null,
+								"customEvents": [
+									{
+										"customEventId": "CEVA_104VA_SALDOIGEIUONGFJ_226418_940",
+										"customizationLayer": 0,
+										"customizationLayerDescription": "ECU",
+										"enabled": "T",
+										"eventActions": [
+										],
+										"executionType": 1,
+										"filter": null,
+										"isEnabled": true,
+										"visualAttributeEventType": {
+											"availableExecutionType": 7,
+											"description": "Se ejecuta al cambiar el valor de un VisualAttribute",
+											"eventId": 104,
+											"name": "Changed"
+										}
+									}
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"format": "",
+								"include": 4095,
+								"isCustomized": false,
+								"label": {
+									"defaultValue": {
+										"$ref": "../../../../CNTAS/assets/languages/CNTAS.json#/CNTAS/LBL/LBL_CNTAS_SALDOINLI_49145"
+									},
+									"labelId": "LBL_CNTAS_SALDOINLI_49145",
+									"moduleId": "CNTAS"
+								},
+								"maxRecords": null,
+								"name": "saldoI",
+								"options": 0,
+								"order": 2,
+								"readOnly": 8,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"textRows": 0,
+								"userControl": {
+									"type": "I",
+									"userControlId": "TextInputBox"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_SALDOIGEIUONGFJ_226418",
+								"width": null,
+								"widthComposite": "D"
+							},
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attribute": {
+									"$ref": "../../../../CNTAS/entities/EN_FILTROCEN_606.json#/attributes/AT27_TIPOCUNE606"
 								},
 								"attributeValidations": [
 								],
@@ -145,6 +171,23 @@
 								"componentInGrid": false,
 								"componentStyle": null,
 								"customEvents": [
+									{
+										"customEventId": "CEVA_104VA_TIPOCUENTAQJAFK_526418_392",
+										"customizationLayer": 0,
+										"customizationLayerDescription": "ECU",
+										"enabled": "T",
+										"eventActions": [
+										],
+										"executionType": 1,
+										"filter": null,
+										"isEnabled": true,
+										"visualAttributeEventType": {
+											"availableExecutionType": 7,
+											"description": "Se ejecuta al cambiar el valor de un VisualAttribute",
+											"eventId": 104,
+											"name": "Changed"
+										}
+									}
 								],
 								"customizationLayer": 0,
 								"customizationLayerDescription": "ECU",
@@ -162,8 +205,15 @@
 								"maxRecords": null,
 								"minChars": null,
 								"name": "tipoCuenta",
-								"options": 0,
+								"options": 1,
 								"order": 1,
+								"placeholderLabel": {
+									"defaultValue": {
+										"$ref": "../../../../CNTAS/assets/languages/CNTAS.json#/CNTAS/LBL/LBL_CNTAS_SELECCIEN_59446"
+									},
+									"labelId": "LBL_CNTAS_SELECCIEN_59446",
+									"moduleId": "CNTAS"
+								},
 								"queryId": null,
 								"queryMemberText": {
 									"attribute": {
@@ -192,7 +242,151 @@
 									"userControlId": "ComboBox"
 								},
 								"visible": 4095,
-								"visualAttributeId": "VA_TIPOCUENTADKIEK_456418",
+								"visualAttributeId": "VA_TIPOCUENTAQJAFK_526418",
+								"width": null,
+								"widthComposite": "D"
+							},
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": false,
+								"componentStyle": null,
+								"customEvents": [
+									{
+										"customEventId": "CEVA_010VA_VABUTTONBJWRJDK_498418_978",
+										"customizationLayer": 0,
+										"customizationLayerDescription": "ECU",
+										"enabled": "T",
+										"eventActions": [
+											{
+												"actionArgs": [
+												],
+												"actionId": "CUSTOM",
+												"actionType": "CUSTOM"
+											},
+											{
+												"actionArgs": [
+												],
+												"actionId": "BLI3489_bli_insert_cuentac",
+												"actionType": "BLI",
+												"controlId": "VA_VABUTTONBJWRJDK_498418"
+											}
+										],
+										"executionType": 7,
+										"filter": null,
+										"isEnabled": true,
+										"visualAttributeEventType": {
+											"availableExecutionType": 7,
+											"description": "Permite personalizar la acci\u00f3n a ejecutar de un command o de un ActionControl",
+											"eventId": 10,
+											"name": "ExecuteCommand"
+										}
+									}
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"entityQuery": null,
+								"include": 4095,
+								"isCustomized": false,
+								"label": {
+									"defaultValue": {
+										"$ref": "../../../../CNTAS/assets/languages/CNTAS.json#/CNTAS/LBL/LBL_CNTAS_CUENTACRI_26755"
+									},
+									"labelId": "LBL_CNTAS_CUENTACRI_26755",
+									"moduleId": "CNTAS"
+								},
+								"maxRecords": null,
+								"name": "VA_VABUTTONBJWRJDK_498418",
+								"options": 0,
+								"order": 4,
+								"queryModule": null,
+								"queryVersion": null,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"userControl": {
+									"type": "A",
+									"userControlId": "Button"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_VABUTTONBJWRJDK_498418",
+								"width": null,
+								"widthComposite": "D"
+							},
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": false,
+								"componentStyle": null,
+								"customEvents": [
+									{
+										"customEventId": "CEVA_010VA_VABUTTONQQLAQAF_932418_347",
+										"customizationLayer": 0,
+										"customizationLayerDescription": "ECU",
+										"enabled": "T",
+										"eventActions": [
+											{
+												"actionArgs": [
+												],
+												"actionId": "CUSTOM",
+												"actionType": "CUSTOM"
+											},
+											{
+												"actionArgs": [
+												],
+												"actionId": "BLI5974_bli_insert_cuentaa",
+												"actionType": "BLI",
+												"controlId": "VA_VABUTTONQQLAQAF_932418"
+											}
+										],
+										"executionType": 7,
+										"filter": null,
+										"isEnabled": true,
+										"visualAttributeEventType": {
+											"availableExecutionType": 7,
+											"description": "Permite personalizar la acci\u00f3n a ejecutar de un command o de un ActionControl",
+											"eventId": 10,
+											"name": "ExecuteCommand"
+										}
+									}
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"entityQuery": null,
+								"include": 4095,
+								"isCustomized": false,
+								"label": {
+									"defaultValue": {
+										"$ref": "../../../../CNTAS/assets/languages/CNTAS.json#/CNTAS/LBL/LBL_CNTAS_CUENTAAOR_17476"
+									},
+									"labelId": "LBL_CNTAS_CUENTAAOR_17476",
+									"moduleId": "CNTAS"
+								},
+								"maxRecords": null,
+								"name": "VA_VABUTTONQQLAQAF_932418",
+								"options": 0,
+								"order": 3,
+								"queryModule": null,
+								"queryVersion": null,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"userControl": {
+									"type": "A",
+									"userControlId": "Button"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_VABUTTONQQLAQAF_932418",
 								"width": null,
 								"widthComposite": "D"
 							}
@@ -310,150 +504,6 @@
 					{
 						"collapsedStr": "F",
 						"colSpan": 1,
-						"columnsNum": 3,
-						"componentStyle": null,
-						"customEvents": [
-						],
-						"enabled": 4095,
-						"entity": {
-							"$ref": "../../../../CNTAS/entities/EN_CUENTAAOO_809.json#"
-						},
-						"eventType": 0,
-						"groupId": "G_PANTALLNAE_817418",
-						"htmlSection": "F",
-						"independentValidation": "F",
-						"isCustomized": false,
-						"layoutType": "Group",
-						"name": "Group2967",
-						"order": 4,
-						"orientation": "V",
-						"responsiveLayouts": null,
-						"responsivity": false,
-						"style": null,
-						"visible": 4095,
-						"visualAttributes": [
-							{
-								"aggregate": null,
-								"aggregateId": null,
-								"attribute": {
-									"$ref": "../../../../CNTAS/entities/EN_CUENTAAOO_809.json#/attributes/AT92_SALDOXBI809"
-								},
-								"attributeValidations": [
-								],
-								"colSpan": 1,
-								"componentInGrid": false,
-								"componentStyle": null,
-								"customEvents": [
-								],
-								"customizationLayer": 0,
-								"customizationLayerDescription": "ECU",
-								"enabled": 4095,
-								"format": "",
-								"include": 4095,
-								"isCustomized": false,
-								"label": {
-									"defaultValue": {
-										"$ref": "../../../../CNTAS/assets/languages/CNTAS.json#/CNTAS/LBL/LBL_CNTAS_SALDOTTHG_97493"
-									},
-									"labelId": "LBL_CNTAS_SALDOTTHG_97493",
-									"moduleId": "CNTAS"
-								},
-								"maxRecords": null,
-								"name": "saldo",
-								"options": 0,
-								"order": 1,
-								"readOnly": 8,
-								"responsiveLayouts": null,
-								"responsivity": false,
-								"sizeWidthComposite": null,
-								"style": null,
-								"textRows": 0,
-								"userControl": {
-									"type": "I",
-									"userControlId": "TextInputBox"
-								},
-								"visible": 4095,
-								"visualAttributeId": "VA_SALDOVEIRPPUAXF_693418",
-								"width": null,
-								"widthComposite": "D"
-							}
-						]
-					},
-					{
-						"collapsedStr": "F",
-						"colSpan": 1,
-						"columnsNum": 3,
-						"componentStyle": null,
-						"customEvents": [
-						],
-						"enabled": 4095,
-						"entity": {
-							"$ref": "../../../../CNTAS/entities/EN_CUENTACOE_528.json#"
-						},
-						"eventType": 0,
-						"groupId": "G_PANTALLOUU_604418",
-						"htmlSection": "F",
-						"independentValidation": "F",
-						"isCustomized": false,
-						"layoutType": "Group",
-						"name": "Group1649",
-						"order": 5,
-						"orientation": "V",
-						"responsiveLayouts": null,
-						"responsivity": false,
-						"style": null,
-						"visible": 4095,
-						"visualAttributes": [
-							{
-								"aggregate": null,
-								"aggregateId": null,
-								"attribute": {
-									"$ref": "../../../../CNTAS/entities/EN_CUENTACOE_528.json#/attributes/AT51_SALDOYYQ528"
-								},
-								"attributeValidations": [
-								],
-								"colSpan": 1,
-								"componentInGrid": false,
-								"componentStyle": null,
-								"customEvents": [
-								],
-								"customizationLayer": 0,
-								"customizationLayerDescription": "ECU",
-								"enabled": 4095,
-								"format": "",
-								"include": 4095,
-								"isCustomized": false,
-								"label": {
-									"defaultValue": {
-										"$ref": "../../../../CNTAS/assets/languages/CNTAS.json#/CNTAS/LBL/LBL_CNTAS_SALDOTTHG_97493"
-									},
-									"labelId": "LBL_CNTAS_SALDOTTHG_97493",
-									"moduleId": "CNTAS"
-								},
-								"maxRecords": null,
-								"name": "saldo",
-								"options": 0,
-								"order": 1,
-								"readOnly": 8,
-								"responsiveLayouts": null,
-								"responsivity": false,
-								"sizeWidthComposite": null,
-								"style": null,
-								"textRows": 0,
-								"userControl": {
-									"type": "I",
-									"userControlId": "TextInputBox"
-								},
-								"visible": 4095,
-								"visualAttributeId": "VA_SALDOUQIIIFAHTV_286418",
-								"width": null,
-								"widthComposite": "D"
-							}
-						]
-					},
-					{
-						"collapsedStr": "F",
-						"colSpan": 1,
 						"columnsNum": 1,
 						"componentStyle": null,
 						"customEvents": [
@@ -510,9 +560,9 @@
 							"insertCommandEnabledStr": "F",
 							"isCustomized": false,
 							"modalSize": null,
-							"modeSelection": "None",
+							"modeSelection": "Simple",
 							"moduleIdDialog": null,
-							"multiSelectEnabledStr": "F",
+							"multiSelectEnabledStr": "S",
 							"name": "QV_VR51_GJG53",
 							"options": 0,
 							"pageSize": null,
@@ -522,6 +572,39 @@
 							"queryId": "Q_CLIETNTE_OM51",
 							"queryVersion": "1.0.0",
 							"queryViewCustomActions": [
+								{
+									"action": null,
+									"commandImageId": null,
+									"commandName": "RowSelecting",
+									"commandOrder": null,
+									"commandType": 0,
+									"customActionId": "CEQV_208QV_VR51_GJG53_999",
+									"customizationLayer": 0,
+									"customizationLayerDescription": "ECU",
+									"enabled": "T",
+									"eventActions": [
+									],
+									"executionType": 1,
+									"filter": null,
+									"isCustomized": false,
+									"name": "RowSelecting",
+									"options": 0,
+									"queryView": "QV_VR51_GJG53",
+									"queryViewEventType": {
+										"availableExecutionType": 7,
+										"description": "Se ejecuta antes de que los datos modificados en una grilla sean comprometidos.",
+										"eventId": 208,
+										"name": "RowSelecting"
+									},
+									"serviceName": null,
+									"userControl": {
+										"customizationLayer": "0",
+										"customizationLayerDescription": "ECU",
+										"description": "Designer Button",
+										"type": "A",
+										"userControlId": "Button"
+									}
+								}
 							],
 							"queryViewId": "QV_VR51_GJG53",
 							"queryViewType": "Grid",

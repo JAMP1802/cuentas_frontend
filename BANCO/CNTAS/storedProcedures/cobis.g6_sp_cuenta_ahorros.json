@@ -1,0 +1,162 @@
+{
+	"filename": "D:\\CapacitacionCMC\\JSON\\cobis.sp_cuenta_ahorros.sp",
+	"procedure": {
+		"database": "cobis",
+		"name": "g6_sp_cuenta_ahorros",
+		"owner": "dbo",
+		"parameters": [
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@s_srv"
+			},
+			{
+				"dataType": "int",
+				"direction": "in",
+				"name": "@s_ssn"
+			},
+			{
+				"dataType": "int",
+				"direction": "in",
+				"name": "@s_ssn_branch"
+			},
+			{
+				"dataType": "datetime",
+				"direction": "in",
+				"name": "@s_date"
+			},
+			{
+				"dataType": "smallint",
+				"direction": "in",
+				"name": "@s_ofi"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@s_user"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@s_lsrv"
+			},
+			{
+				"dataType": "smallint",
+				"direction": "in",
+				"name": "@s_rol"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@s_term"
+			},
+			{
+				"dataType": "char",
+				"direction": "in",
+				"name": "@s_org"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@s_culture"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@t_file"
+			},
+			{
+				"dataType": "char",
+				"direction": "in",
+				"name": "@t_debug"
+			},
+			{
+				"dataType": "int",
+				"direction": "in",
+				"name": "@t_trn"
+			},
+			{
+				"dataType": "char",
+				"direction": "in",
+				"name": "@i_operacion"
+			},
+			{
+				"dataType": "int",
+				"direction": "in",
+				"name": "@i_ca_cliente"
+			},
+			{
+				"dataType": "decimal",
+				"direction": "in",
+				"name": "@i_ca_saldo"
+			},
+			{
+				"dataType": "float",
+				"direction": "in",
+				"name": "@i_ca_banco"
+			},
+			{
+				"dataType": "char",
+				"direction": "in",
+				"name": "@i_tipo_transaccion"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@i_tipo"
+			}
+		],
+		"queries": [
+			{
+				"_idQuery": "bd274341-103b-43ac-a123-211a6ca55f83",
+				"columns": [
+					"{0}"
+				],
+				"editMode": false,
+				"queryText": "SELECT @w_saldo_anterior"
+			},
+			{
+				"_idQuery": "92a8e591-47a0-4e10-85b2-a4f422a69ce5",
+				"columns": [
+					"{0}"
+				],
+				"editMode": false,
+				"queryText": "SELECT ca_saldo\r\n\t       \t\t\t\t\t\tFROM"
+			}
+		],
+		"variables": [
+			{
+				"dataType": "float",
+				"name": "@w_ca_banco"
+			},
+			{
+				"dataType": "varchar",
+				"name": "@w_msg"
+			},
+			{
+				"dataType": "float",
+				"name": "@w_numero_desde"
+			},
+			{
+				"dataType": "float",
+				"name": "@w_numero_hasta"
+			},
+			{
+				"dataType": "int",
+				"name": "@w_return"
+			},
+			{
+				"dataType": "decimal",
+				"name": "@w_saldo_anterior"
+			},
+			{
+				"dataType": "decimal",
+				"name": "@w_saldo"
+			},
+			{
+				"dataType": "varchar",
+				"name": "@w_sp_name"
+			}
+		]
+	}
+}

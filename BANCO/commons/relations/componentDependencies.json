@@ -22,6 +22,10 @@
 			"labels": [
 			]
 		},
+		"EN_FILTROCEN_606": {
+			"labels": [
+			]
+		},
 		"EN_FILTROCUA_153": {
 			"labels": [
 			]
@@ -42,6 +46,8 @@
 	"Forms": {
 		"T_CNTASBHRJCDFQ_607": {
 			"blis": [
+				"BLI3489_bli_insert_cuentac",
+				"BLI5974_bli_insert_cuentaa",
 				"BLI8787_bli_consultar_cliente"
 			],
 			"entities": {
@@ -51,17 +57,12 @@
 					"AT81_CODCLINT391",
 					"AT94_CEDULAME391"
 				],
-				"EN_CUENTAAOO_809": [
-					"AT92_SALDOXBI809"
-				],
-				"EN_CUENTACOE_528": [
-					"AT51_SALDOYYQ528"
-				],
 				"EN_FILTROBUU_182": [
 					"AT46_CEDULAKQ182"
 				],
-				"EN_FILTROCUA_153": [
-					"AT87_TIPOCUAT153"
+				"EN_FILTROCEN_606": [
+					"AT21_SALDOIXF606",
+					"AT27_TIPOCUNE606"
 				]
 			},
 			"externalEntities": {
@@ -72,8 +73,9 @@
 			],
 			"labels": [
 				"LBL_CNTAS_CDULANNCB_78020",
-				"LBL_CNTAS_GUARDARYM_27543",
-				"LBL_CNTAS_SALDOTTHG_97493",
+				"LBL_CNTAS_CUENTAAOR_17476",
+				"LBL_CNTAS_CUENTACRI_26755",
+				"LBL_CNTAS_SALDOINLI_49145",
 				"LBL_CNTAS_TIPOCUEAA_90783"
 			],
 			"queries": {
@@ -281,6 +283,33 @@
 					"QM_OPERCOY1CY819_01",
 					"QM_OPERCY3CCC690_05"
 				]
+			},
+			"subForms": [
+			]
+		},
+		"T_CNTASZSKFJDSC_476": {
+			"blis": [
+			],
+			"entities": {
+				"EN_FILTROCEN_606": [
+					"AT21_SALDOIXF606",
+					"AT27_TIPOCUNE606",
+					"AT99_IDCLIETE606"
+				]
+			},
+			"externalEntities": {
+			},
+			"externalQueries": {
+			},
+			"header": [
+			],
+			"labels": [
+				"LBL_CNTAS_CODCLIENT_86000",
+				"LBL_CNTAS_GUARDARYM_27543",
+				"LBL_CNTAS_SALDOINLI_49145",
+				"LBL_CNTAS_TIPOCUEAA_90783"
+			],
+			"queries": {
 			},
 			"subForms": [
 			]

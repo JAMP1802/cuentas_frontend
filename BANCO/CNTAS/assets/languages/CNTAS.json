@@ -2,6 +2,12 @@
 	"CNTAS": {
 		"LBL": {
 			"LBL_CNTAS_CDULANNCB_78020": "C\u00e9dula",
+			"LBL_CNTAS_CLIENTEDI_17368": "Cliente Id",
+			"LBL_CNTAS_CLIENTEEX_48455": "Cliente",
+			"LBL_CNTAS_CODCLIENT_86000": "Cod Cliente",
+			"LBL_CNTAS_CREARCUEA_47622": "Crear Cuenta",
+			"LBL_CNTAS_CUENTAAOR_17476": "Cuenta Ahorros",
+			"LBL_CNTAS_CUENTACRI_26755": "Cuenta Corriente",
 			"LBL_CNTAS_DEPOSITAR_80868": "Depositar",
 			"LBL_CNTAS_GUARDARYM_27543": "Guardar",
 			"LBL_CNTAS_NMEROCUAT_39342": "N\u00famero de Cuenta",
@@ -9,7 +15,9 @@
 			"LBL_CNTAS_NUMCUENNA_94715": "Num Cuenta Origen",
 			"LBL_CNTAS_RETIRARWE_41793": "Retirar",
 			"LBL_CNTAS_SALDOINCI_32613": "Saldo inicial",
+			"LBL_CNTAS_SALDOINLI_49145": "Saldo Inicial",
 			"LBL_CNTAS_SALDOTTHG_97493": "Saldo",
+			"LBL_CNTAS_SELECCIEN_59446": "Seleccione",
 			"LBL_CNTAS_TIPOCUEAA_90783": "Tipo de Cuenta",
 			"LBL_CNTAS_TRANSFEIR_69545": "Transferir",
 			"LBL_CNTAS_VALORADOI_11452": "Valor a Depositar",

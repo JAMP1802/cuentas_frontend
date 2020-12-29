@@ -1,0 +1,12 @@
+{
+	"entities": [
+		{
+			"entityId": "EN_FILTROCEN_606",
+			"isContextEntity": null,
+			"moduleId": "CNTAS",
+			"related": false
+		}
+	],
+	"queries": [
+	]
+}
