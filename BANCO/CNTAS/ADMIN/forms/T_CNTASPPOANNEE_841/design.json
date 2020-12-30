@@ -11,6 +11,35 @@
 			"closeAsString": "F",
 			"commandType": 0,
 			"customEvents": [
+				{
+					"commandEventType": {
+						"availableExecutionType": 7,
+						"description": "Permite personalizar la acci\u00f3n a ejecutar de un command o de un ActionControl",
+						"eventId": 10,
+						"name": "ExecuteCommand"
+					},
+					"customEventId": "CECM_010CM_TCNTASPP_NS8_595",
+					"customizationLayer": 0,
+					"customizationLayerDescription": "ECU",
+					"enabled": "T",
+					"eventActions": [
+						{
+							"actionArgs": [
+							],
+							"actionId": "CUSTOM",
+							"actionType": "CUSTOM"
+						},
+						{
+							"actionArgs": [
+							],
+							"actionId": "BLI1514_bli_depositar",
+							"actionType": "BLI"
+						}
+					],
+					"executionType": 7,
+					"filter": null,
+					"isEnabled": true
+				}
 			],
 			"customizationLayer": 0,
 			"customizationLayerDescription": "ECU",
@@ -244,7 +273,7 @@
 								"customizationLayer": 0,
 								"customizationLayerDescription": "ECU",
 								"enabled": 4095,
-								"entityQuery": null,
+								"entityQuery": "EN_OPERACIOO_708",
 								"imageId": "fa fa-search",
 								"include": 4095,
 								"isCustomized": false,
@@ -252,8 +281,9 @@
 								"name": "VA_VAIMAGEBUTTONNN_530479",
 								"options": 0,
 								"order": 2,
-								"queryModule": null,
-								"queryVersion": null,
+								"queryId": "Q_OPERCCOE_TY13",
+								"queryModule": "CNTAS",
+								"queryVersion": "1.0.0",
 								"responsiveLayouts": null,
 								"responsivity": false,
 								"sizeWidthComposite": null,

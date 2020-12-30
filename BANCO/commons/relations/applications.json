@@ -5,11 +5,19 @@
 		"forms": {
 			"CNTAS": [
 				{
-					"generated": 2,
+					"generated": 4,
 					"moduleId": "CNTAS",
 					"name": "pantallaCreacionCuenta",
 					"subModuleId": "ADMIN",
 					"taskId": "T_CNTASBHRJCDFQ_607",
+					"type": "Simple form"
+				},
+				{
+					"generated": 4,
+					"moduleId": "CNTAS",
+					"name": "pantallaDepositos",
+					"subModuleId": "ADMIN",
+					"taskId": "T_CNTASPPOANNEE_841",
 					"type": "Simple form"
 				}
 			]

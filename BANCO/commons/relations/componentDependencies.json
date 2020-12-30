@@ -168,6 +168,7 @@
 		},
 		"T_CNTASPPOANNEE_841": {
 			"blis": [
+				"BLI1514_bli_depositar"
 			],
 			"entities": {
 				"EN_FILTROBUU_182": [
@@ -198,6 +199,8 @@
 			],
 			"queries": {
 				"Q_OPERCCOE_TY13": [
+					"",
+					"",
 					"QM_OPERC1111O549_02",
 					"QM_OPERC1EOC3483_03",
 					"QM_OPERCEO1YC326_04",
