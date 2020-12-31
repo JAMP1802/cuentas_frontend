@@ -9,6 +9,12 @@
 				{
 					"actionArgs": [
 					],
+					"actionId": "BLI9614_bli_historial_transacciones",
+					"actionType": "BLI"
+				},
+				{
+					"actionArgs": [
+					],
 					"actionId": "CUSTOM",
 					"actionType": "CUSTOM"
 				}
@@ -118,8 +124,8 @@
 			"queryMemberId": "QM_TRANSK8AKS712_03",
 			"select": true,
 			"selectStr": "T",
-			"where": false,
-			"whereStr": "F"
+			"where": true,
+			"whereStr": "T"
 		},
 		{
 			"alias": "tipoCuenta",

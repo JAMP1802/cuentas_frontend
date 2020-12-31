@@ -1,0 +1,121 @@
+{
+	"databaseType": "Sybase",
+	"inputEntity": [
+	],
+	"inputParameters": [
+		{
+			"attributeId": "",
+			"bddType": "char",
+			"dataType": "CHAR",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@i_operacion",
+			"type": "CONSTANT",
+			"value": "Q"
+		},
+		{
+			"attributeId": "",
+			"bddType": "int",
+			"dataType": "INT",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@t_trn",
+			"type": "CONSTANT",
+			"value": "7067132"
+		},
+		{
+			"attributeId": "",
+			"bddType": "varchar",
+			"dataType": "VARCHAR",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@i_tr_cuenta",
+			"type": "CUSTOM",
+			"value": "cuenta"
+		}
+	],
+	"name": "BLI_historial_transacciones",
+	"outputEntity": [
+	],
+	"outputParameters": [
+	],
+	"patternId": "BLI9614_bli_historial_transacciones",
+	"patternName": "BLI_historial_transacciones",
+	"patternType": "Bli",
+	"queries": [
+		{
+			"_idQuery": "a105a1d5-f671-4baf-b808-5b719a19f74c",
+			"isMapReturn": true,
+			"isReturn": true,
+			"isSingleResult": false,
+			"numberQuery": 4,
+			"queryName": "SELECT"
+		}
+	],
+	"resultSets": [
+		{
+			"_idQuery": "a105a1d5-f671-4baf-b808-5b719a19f74c",
+			"columns": [
+				{
+					"attributeId": "AT63_IDTRANSC749",
+					"entityId": "EN_TRANSACON_749",
+					"format": "",
+					"name": "id",
+					"position": 1,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT83_FECHAFGU749",
+					"entityId": "EN_TRANSACON_749",
+					"format": "",
+					"name": "fecha Registro",
+					"position": 2,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT20_CUENTAGX749",
+					"entityId": "EN_TRANSACON_749",
+					"format": "",
+					"name": " Num cuenta",
+					"position": 3,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT90_TIPOTRSS749",
+					"entityId": "EN_TRANSACON_749",
+					"format": "",
+					"name": " Tipo Tramite",
+					"position": 4,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT52_TIPOCUTA749",
+					"entityId": "EN_TRANSACON_749",
+					"format": "",
+					"name": " Tipo Cuenta",
+					"position": 5,
+					"type": "ATTRIBUTE"
+				}
+			],
+			"number": 1,
+			"singleResult": false
+		}
+	],
+	"returnEntity": [
+		{
+			"entityId": "EN_TRANSACON_749",
+			"module": {
+				"moduleId": "CNTAS",
+				"moduleName": "CUENTAS"
+			},
+			"name": "Transaccion"
+		}
+	],
+	"serverName": "CENTRAL",
+	"serviceID": "cobis.g6_sp_operaciones",
+	"type": "SP",
+	"typeMapping": "MAPJava"
+}

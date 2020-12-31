@@ -112,7 +112,7 @@
 					"Apellido",
 					"Tipo Cuenta"
 				],
-				"editMode": true,
+				"editMode": false,
 				"queryText": "SELECT\r\n   \t\t\t\t   \u0027Num Cuenta\u0027     \t=ca_banco,\r\n                   \u0027Saldo\u0027             \t=ca_saldo,\r\n                   \u0027cedula\u0027    \t\t=cl_cedula,\r\n                   \u0027Nombre\u0027    \t\t\t=cl_nombre,\r\n                   \u0027Apellido\u0027  \t\t\t=cl_apellido,\r\n\t\t   \t\t   \u0027Tipo Cuenta\u0027       \t=\u0027AHORROS\u0027\r\n\t\t\t\t\tFROM"
 			},
 			{
@@ -125,7 +125,7 @@
 					"Apellido",
 					"Tipo Cuenta"
 				],
-				"editMode": true,
+				"editMode": false,
 				"queryText": "SELECT\r\n   \t\t\t\t   \u0027Num Cuenta\u0027     \t=cc_banco,\r\n                   \u0027Saldo\u0027             \t=cc_saldo,\r\n                   \u0027cedula\u0027    \t\t=cl_cedula,\r\n                   \u0027Nombre\u0027    \t\t\t=cl_nombre,\r\n                   \u0027Apellido\u0027  \t\t\t=cl_apellido,\r\n\t\t   \t\t   \u0027Tipo Cuenta\u0027       \t=\u0027CORRIENTE\u0027\r\n\t\t\t\t\tFROM"
 			},
 			{
@@ -138,8 +138,20 @@
 					"Apellido",
 					"Tipo_Cuenta"
 				],
-				"editMode": true,
+				"editMode": false,
 				"queryText": "SELECT\r\n   \t\t\t\t   \u0027Num Cuenta\u0027     \t=cc_banco,\r\n                   \u0027Saldo\u0027             \t=cc_saldo,\r\n                   \u0027Cliente\u0027    \t\t=cl_cedula,\r\n                   \u0027Nombre\u0027    \t\t\t=cl_nombre,\r\n                   \u0027Apellido\u0027  \t\t\t=cl_apellido,\r\n\t\t   \t\t   \u0027Tipo_Cuenta\u0027       \t=\u0027CORRIENTE\u0027\r\n\t\t\t\t\tFROM"
+			},
+			{
+				"_idQuery": "a105a1d5-f671-4baf-b808-5b719a19f74c",
+				"columns": [
+					"id",
+					"fecha Registro",
+					" Num cuenta",
+					" Tipo Tramite",
+					" Tipo Cuenta"
+				],
+				"editMode": false,
+				"queryText": "SELECT"
 			}
 		],
 		"variables": [

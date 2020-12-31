@@ -26,6 +26,28 @@
 			"entities": {
 				"inputEntity": [
 					{
+						"entityId": "EN_FILTROBUU_182",
+						"moduleId": "CNTAS",
+						"related": false
+					},
+					{
+						"entityId": "EN_FILTROCUA_153",
+						"moduleId": "CNTAS",
+						"related": false
+					}
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+				]
+			},
+			"idBli": "BLI3107_bli_retirar",
+			"nameBli": "BLI_retirar"
+		},
+		{
+			"entities": {
+				"inputEntity": [
+					{
 						"entityId": "EN_FILTROCEN_606",
 						"moduleId": "CNTAS",
 						"related": false
@@ -106,6 +128,23 @@
 			},
 			"idBli": "BLI8787_bli_consultar_cliente",
 			"nameBli": "BLI_consultar_cliente"
+		},
+		{
+			"entities": {
+				"inputEntity": [
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+					{
+						"entityId": "EN_TRANSACON_749",
+						"moduleId": "CNTAS",
+						"related": false
+					}
+				]
+			},
+			"idBli": "BLI9614_bli_historial_transacciones",
+			"nameBli": "BLI_historial_transacciones"
 		}
 	]
 }

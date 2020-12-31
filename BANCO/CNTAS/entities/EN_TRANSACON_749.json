@@ -7,7 +7,7 @@
 			"columnName": null,
 			"customizationLayer": 0,
 			"customizationLayerDescription": "ECU",
-			"dataType": "Integer",
+			"dataType": "String",
 			"entityPk": {
 				"entityId": "EN_TRANSACON_749",
 				"version": "1.0.0"
@@ -15,7 +15,7 @@
 			"expression": null,
 			"falseValue": null,
 			"labelId": null,
-			"length": 0,
+			"length": 10,
 			"listValues": null,
 			"name": "cuenta",
 			"objectType": null,

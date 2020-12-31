@@ -214,6 +214,7 @@
 		},
 		"T_CNTASRWPLMUUD_830": {
 			"blis": [
+				"BLI9614_bli_historial_transacciones"
 			],
 			"entities": {
 				"EN_FILTROBUU_182": [
@@ -238,6 +239,10 @@
 			],
 			"queries": {
 				"Q_TRANSSCS_KA88": [
+					"",
+					"",
+					"",
+					"",
 					"QM_TRANS88ASA313_01",
 					"QM_TRANS88K88129_04",
 					"QM_TRANSCSSSC538_02",
@@ -250,6 +255,7 @@
 		},
 		"T_CNTASZKRCNDMZ_891": {
 			"blis": [
+				"BLI3107_bli_retirar"
 			],
 			"entities": {
 				"EN_FILTROBUU_182": [
@@ -275,10 +281,15 @@
 			],
 			"labels": [
 				"LBL_CNTAS_NMEROCUAT_39342",
+				"LBL_CNTAS_RETIRARWE_41793",
 				"LBL_CNTAS_VALORARAA_10820"
 			],
 			"queries": {
 				"Q_OPERCCOE_TY13": [
+					"",
+					"",
+					"",
+					"",
 					"QM_OPERC1111O549_02",
 					"QM_OPERC1EOC3483_03",
 					"QM_OPERCEO1YC326_04",

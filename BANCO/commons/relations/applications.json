@@ -19,6 +19,22 @@
 					"subModuleId": "ADMIN",
 					"taskId": "T_CNTASPPOANNEE_841",
 					"type": "Simple form"
+				},
+				{
+					"generated": 0,
+					"moduleId": "CNTAS",
+					"name": "pantallaTransaccion",
+					"subModuleId": "ADMIN",
+					"taskId": "T_CNTASRWPLMUUD_830",
+					"type": "Simple form"
+				},
+				{
+					"generated": 4,
+					"moduleId": "CNTAS",
+					"name": "pantallaRetiros",
+					"subModuleId": "ADMIN",
+					"taskId": "T_CNTASZKRCNDMZ_891",
+					"type": "Simple form"
 				}
 			]
 		},
