@@ -5,35 +5,63 @@
 		"forms": {
 			"CNTAS": [
 				{
-					"generated": 4,
+					"generated": 0,
 					"moduleId": "CNTAS",
+					"moduleName": "CUENTAS",
 					"name": "pantallaCreacionCuenta",
 					"subModuleId": "ADMIN",
+					"subModuleName": "ADMIN",
 					"taskId": "T_CNTASBHRJCDFQ_607",
 					"type": "Simple form"
 				},
 				{
 					"generated": 4,
 					"moduleId": "CNTAS",
+					"moduleName": "CUENTAS",
+					"name": "pantallaTransferencias",
+					"subModuleId": "ADMIN",
+					"subModuleName": "ADMIN",
+					"taskId": "T_CNTASMAYEGMZW_565",
+					"type": "Simple form"
+				},
+				{
+					"generated": 4,
+					"moduleId": "CNTAS",
+					"moduleName": "CUENTAS",
 					"name": "pantallaDepositos",
 					"subModuleId": "ADMIN",
+					"subModuleName": "ADMIN",
 					"taskId": "T_CNTASPPOANNEE_841",
 					"type": "Simple form"
 				},
 				{
-					"generated": 0,
+					"generated": 4,
 					"moduleId": "CNTAS",
+					"moduleName": "CUENTAS",
 					"name": "pantallaTransaccion",
 					"subModuleId": "ADMIN",
+					"subModuleName": "ADMIN",
 					"taskId": "T_CNTASRWPLMUUD_830",
 					"type": "Simple form"
 				},
 				{
 					"generated": 4,
 					"moduleId": "CNTAS",
+					"moduleName": "CUENTAS",
 					"name": "pantallaRetiros",
 					"subModuleId": "ADMIN",
+					"subModuleName": "ADMIN",
 					"taskId": "T_CNTASZKRCNDMZ_891",
+					"type": "Simple form"
+				},
+				{
+					"generated": 4,
+					"moduleId": "CNTAS",
+					"moduleName": "CUENTAS",
+					"name": "formCuenta",
+					"subModuleId": "ADMIN",
+					"subModuleName": "ADMIN",
+					"taskId": "T_CNTASZSKFJDSC_476",
 					"type": "Simple form"
 				}
 			]

@@ -1,0 +1,129 @@
+{
+	"databaseType": "Sybase",
+	"inputEntity": [
+	],
+	"inputParameters": [
+		{
+			"attributeId": "",
+			"bddType": "char",
+			"dataType": "CHAR",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@i_operacion",
+			"type": "CONSTANT",
+			"value": "A"
+		},
+		{
+			"attributeId": "",
+			"bddType": "int",
+			"dataType": "INT",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@t_trn",
+			"type": "CONSTANT",
+			"value": "7067132"
+		},
+		{
+			"attributeId": "",
+			"bddType": "varchar",
+			"dataType": "VARCHAR",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@i_tr_cuenta",
+			"type": "CUSTOM",
+			"value": "cuentaDestino"
+		}
+	],
+	"name": "BLI_consultar_cuenta_corriente_destino",
+	"outputEntity": [
+	],
+	"outputParameters": [
+	],
+	"patternId": "BLI2393_bli_consultar_cuenta_corriente_destino",
+	"patternName": "BLI_consultar_cuenta_corriente_destino",
+	"patternType": "Bli",
+	"queries": [
+		{
+			"_idQuery": "55323965-a2c1-400f-bfe9-da377bd555da",
+			"isMapReturn": true,
+			"isReturn": true,
+			"isSingleResult": false,
+			"numberQuery": 2,
+			"queryName": "SELECT\r\n   \t\t\t\t   \u0027Num Cuenta\u0027     \t=cc_banco,\r\n                   \u0027Saldo\u0027             \t=cc_saldo,\r\n                   \u0027cedula\u0027    \t\t=cl_cedula,\r\n                   \u0027Nombre\u0027    \t\t\t=cl_nombre,\r\n                   \u0027Apellido\u0027  \t\t\t=cl_apellido,\r\n\t\t   \t\t   \u0027Tipo Cuenta\u0027       \t=\u0027CORRIENTE\u0027\r\n\t\t\t\t\tFROM"
+		}
+	],
+	"resultSets": [
+		{
+			"_idQuery": "55323965-a2c1-400f-bfe9-da377bd555da",
+			"columns": [
+				{
+					"attributeId": "AT38_NUMCUETT327",
+					"entityId": "EN_OPERACIOI_327",
+					"format": "",
+					"name": "Num Cuenta",
+					"position": 1,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT66_SALDOFBE327",
+					"entityId": "EN_OPERACIOI_327",
+					"format": "",
+					"name": "Saldo",
+					"position": 2,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT38_CEDULAIF327",
+					"entityId": "EN_OPERACIOI_327",
+					"format": "",
+					"name": "cedula",
+					"position": 3,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT28_NOMBREXJ327",
+					"entityId": "EN_OPERACIOI_327",
+					"format": "",
+					"name": "Nombre",
+					"position": 4,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT45_APELLIDO327",
+					"entityId": "EN_OPERACIOI_327",
+					"format": "",
+					"name": "Apellido",
+					"position": 5,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT75_TIPOCUNT327",
+					"entityId": "EN_OPERACIOI_327",
+					"format": "",
+					"name": "Tipo Cuenta",
+					"position": 6,
+					"type": "ATTRIBUTE"
+				}
+			],
+			"number": 1,
+			"singleResult": false
+		}
+	],
+	"returnEntity": [
+		{
+			"entityId": "EN_OPERACIOI_327",
+			"module": {
+				"moduleId": "CNTAS",
+				"moduleName": "CUENTAS"
+			},
+			"name": "OperacionesDestino"
+		}
+	],
+	"serverName": "CENTRAL",
+	"serviceID": "cobis.g6_sp_operaciones",
+	"type": "SP",
+	"typeMapping": "MAPJava"
+}

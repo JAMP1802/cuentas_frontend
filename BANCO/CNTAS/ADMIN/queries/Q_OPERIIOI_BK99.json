@@ -78,8 +78,8 @@
 			"queryMemberId": "QM_OPERIB9I9I528_01",
 			"select": true,
 			"selectStr": "T",
-			"where": false,
-			"whereStr": "F"
+			"where": true,
+			"whereStr": "T"
 		},
 		{
 			"alias": "cedula",

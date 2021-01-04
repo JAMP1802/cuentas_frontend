@@ -25,6 +25,23 @@
 		{
 			"entities": {
 				"inputEntity": [
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+					{
+						"entityId": "EN_OPERACIOI_327",
+						"moduleId": "CNTAS",
+						"related": false
+					}
+				]
+			},
+			"idBli": "BLI2393_bli_consultar_cuenta_corriente_destino",
+			"nameBli": "BLI_consultar_cuenta_corriente_destino"
+		},
+		{
+			"entities": {
+				"inputEntity": [
 					{
 						"entityId": "EN_FILTROBUU_182",
 						"moduleId": "CNTAS",
@@ -132,6 +149,33 @@
 		{
 			"entities": {
 				"inputEntity": [
+					{
+						"entityId": "EN_FILTROBEA_962",
+						"moduleId": "CNTAS",
+						"related": false
+					},
+					{
+						"entityId": "EN_FILTROBUU_182",
+						"moduleId": "CNTAS",
+						"related": false
+					},
+					{
+						"entityId": "EN_FILTROCUA_153",
+						"moduleId": "CNTAS",
+						"related": false
+					}
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+				]
+			},
+			"idBli": "BLI9560_bli_transferir",
+			"nameBli": "BLI_transferir"
+		},
+		{
+			"entities": {
+				"inputEntity": [
 				],
 				"outputEntity": [
 				],
@@ -145,6 +189,23 @@
 			},
 			"idBli": "BLI9614_bli_historial_transacciones",
 			"nameBli": "BLI_historial_transacciones"
+		},
+		{
+			"entities": {
+				"inputEntity": [
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+					{
+						"entityId": "EN_OPERACIOI_327",
+						"moduleId": "CNTAS",
+						"related": false
+					}
+				]
+			},
+			"idBli": "BLI9914_bli_consultar_cuenta_ahorro_destino",
+			"nameBli": "BLI_consultar_cuenta_ahorro_destino"
 		}
 	]
 }

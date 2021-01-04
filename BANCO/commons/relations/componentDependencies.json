@@ -93,6 +93,7 @@
 		},
 		"T_CNTASMAYEGMZW_565": {
 			"blis": [
+				"BLI9560_bli_transferir"
 			],
 			"entities": {
 				"EN_FILTROBEA_962": [
@@ -135,20 +136,24 @@
 			],
 			"queries": {
 				"Q_OPERCCOE_TY13": [
+					"",
+					"",
+					"",
+					"",
 					"QM_OPERC1111O549_02",
 					"QM_OPERC1EOC3483_03",
 					"QM_OPERCEO1YC326_04",
 					"QM_OPERCOEYOO647_06",
 					"QM_OPERCOY1CY819_01",
-					"QM_OPERCY3CCC690_05",
-					"QM_OPERI9B9K9978_02",
-					"QM_OPERIB9I9I528_01",
-					"QM_OPERII99K9446_03",
-					"QM_OPERIK999I903_05",
-					"QM_OPERIOIB9I982_04",
-					"QM_OPERIOK99B679_06"
+					"QM_OPERCY3CCC690_05"
 				],
 				"Q_OPERIIOI_BK99": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
 					"QM_OPERC1111O549_02",
 					"QM_OPERC1EOC3483_03",
 					"QM_OPERCEO1YC326_04",
